@@ -14,6 +14,7 @@ bool solve(vector<int>& nums) {
         }
         mx = max(mx, cnt);
     }
+    
     if (freq == mx) {
         return true;
     }
